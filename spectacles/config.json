@@ -1,0 +1,116 @@
+{
+  "spectacles": [
+       {
+      "id": "spectacle-impro-20260527",
+      "type": "spectacle",
+      "titre": "Spectacle d'impro : Simone s'envole vers l'Overground",
+      "date": "2026-05-27",
+      "heure": "19h",
+      "lieu": "Overground Brewing 8 rue de la Tour à Strasbourg/Koenigshoffen",
+      "description": "Simone a décidé d'envoyer son groupe adulte en orbite.\n Base de lancement : Overground Brewing\n Prépare-toi à quitter la gravité terrestre pour un un spectacle aussi léger que la douce apesanteur qui t'attend à bord et qui te mettra des étoiles plein les yeux !\n Les astres sont alignés pour passer un excellent moment alors 3... 2... 1... Impro ! 🚀",
+      "prix": "Places limitées, réservation directement auprès d’Overground Brewing ! Entrée libre et sortie au chapeau",
+      "statut": "a-venir",
+      "affiche": "spectacles/20260527/affiche.png",
+      "photos": [
+        "spectacles/20260527/affiche.jpg"
+      ],
+      "lienPlusInfo": "https://www.facebook.com/events/26379250095058882/"
+      },
+      {
+      "id": "spectacle-impro-20260425",
+      "type": "spectacle",
+      "titre": "Spectacle d'Improvisation : Simone improvise en famille",
+      "date": "2026-04-25",
+      "heure": "10h30",
+      "lieu": "Café Totem 41 rue principale à Schiltigheim",
+      "description": "On dit souvent que Simone Improvise est une petite famille, mais ce qu'on sait moins c'est qu'à l'intérieur de celle-ci se trouvent de vrais liens du sang.\nEt pour une première, c'est littéralement une famille de jouteur.euse.s qui va se produire à Totem Café.\nTu pensais faire la grasse mat' ?! Que nenni, rien de tel qu'un spectacle d'impro pour réveiller ta dopamine et te mettre en forme pour le weekend.\nEt si tu n'as pas le temps de prendre ton petit déj, Totem dispose d'un large de choix de boissons et gourmandises pour réveiller tes papilles.\nDîner Spectacle, c'est dépassé... viens au Petit-déj Spectacle si tu veux rester branché !",
+      "prix": "Réservation directement auprès de Totem Café",
+      "statut": "a-venir",
+      "affiche": "spectacles/20260425/affiche.png",
+      "photos": [
+        "spectacles/20260425/affiche.png"
+      ],
+      "lienPlusInfo": "https://www.facebook.com/events/26379250095058882/"
+    },
+    {
+      "id": "spectacle-impro-20260411",
+      "type": "spectacle",
+      "titre": "Spectacle d'Improvisation : Simone décolle !",
+      "date": "2026-04-11",
+      "heure": "20h",
+      "lieu": "SAJH APEDI 7a rue Jean Monnet à Schiltigheim ",
+      "description": "✈️ Bienvenue à bord de Simone Airlines.\n Pour son prochain spectacle, Simone et son cabin-crew t'embarquent pour un moment de folie.\n Rien de plus à faire que de prendre place et profiter du voyage improvisé par cette fine équipe.\n Relevez vos tablettes et attachez vos ceintures, fort risque de turbulences en tout genre !\n Alors, prêt.e pour le décollage ?!",
+      "prix": "Entrée libre dans la limite des places disponibles ",
+      "statut": "a-venir",
+      "affiche": "spectacles/20260411/affiche.jpg",
+      "photos": [
+        "spectacles/20260411/affiche.jpg"
+      ],
+      "lienPlusInfo": "https://www.facebook.com/events/1726151495229840/"
+    },
+    {
+      "id": "spectacle-impro-20260328",
+      "type": "spectacle",
+      "titre": "Spectacle d'Improvisation - Printemps 2026",
+      "date": "2026-03-28",
+      "heure": "20h",
+      "lieu": "Divanoo 25A route de Bischwiller à Bischheim",
+      "description": "Pour le prochain spectacle d'improvisation de la team adultes de Simone, on te réserve des impros plus vraies que nature et une qualité 4K que tu ne trouveras nulle part ailleurs ! 🎬",
+      "prix": "Entrée libre dans la limite des places disponibles ",
+      "statut": "a-venir",
+      "affiche": "spectacles/20260328/affiche.jpg",
+      "photos": [
+        "spectacles/20260328/affiche.jpg"
+      ],
+      "lienPlusInfo": "https://fb.me/e/5w4z7h3s6"
+    },
+    {
+      "id": "spectacle-impro-20260307",
+      "type": "spectacle",
+      "titre": "Spectacle d'Improvisation - Droit de la femme",
+      "date": "2026-03-07",
+      "heure": "19h",
+      "lieu": "SAJH APEDI 7a rue Jean Monnet Schiltigheim ",
+      "description": "Cette année pour la Journée internationale des droits des femmes, Simone va improviser mais pas seulement... \n Au programme de la soirée : \n - petite pièce théâtrale un dimanche en famille \n - quelques lectures \n - un entracte en compagnie de la Librairie Totem qui proposera une sélection d'ouvrages et l'association Dis Bonjour Sale Pute qui viendra t'en dire plus sur le combat contre les violences sexistes et sexuelles \n - et pour finir un spectacle d'impro aux petits oignons", 
+      "prix": "Entrée libre dans la limite des places disponibles ",
+      "statut": "passe",
+      "affiche": "spectacles/20260307/affiche.jpg",
+      "photos": [
+        "spectacles/20260307/affiche.jpg"
+      ],
+      "lienPlusInfo": "https://fb.me/e/5MxA5Yd0g"
+    },
+    {
+      "id": "spectacle-impro-20260228",
+      "type": "spectacle",
+      "titre": "Spectacle d'Improvisation - Simone Magazine",
+      "date": "2026-02-28",
+      "heure": "20h",
+      "lieu": "Divanoo 25A route de Bischwiller à Bischheim",
+      "description": "Tu aimes les potins ? Alors ça tombe bien pcq Simone adore partager pleins d'histoires croustillantes dans ses spectacles d'impro (inspirés ou non de faits réels, qui sait?). \n Que tu sois plutôt branché par les commérages, l'horoscope, les conseils de beauté, de cuisine... Chacun trouvera son compte dans les pages du prochain spectacle ! ", 
+      "prix": "Entrée libre dans la limite des places disponibles ",
+      "statut": "passe",
+      "affiche": "spectacles/20260228/affiche.jpg",
+      "photos": [
+        "spectacles/20260228/affiche.jpg"
+      ],
+      "lienPlusInfo": "https://fb.me/e/3F9jCV6f9"
+    },
+    {
+      "id": "spectacle-impro-20260214",
+      "type": "spectacle",
+      "titre": "Spectacle d'Improvisation - Love Show",
+      "date": "2026-02-14",
+      "heure": "19h",
+      "lieu": "SAJH APEDI 7a rue Jean Monnet Schiltigheim ",
+      "description": "Pour célébrer l'amour en grand, Simone change de formule et te propose une format long pour allumer en toi le feu de la passion 🔥 \n Alors seul, en couple, en famille, en trouple, ou peu importe la manière dont tu aimes, viens profiter de l'amour que Simone va mettre dans son Love Show pour toi ❤️ ", 
+      "prix": "Entrée libre dans la limite des places disponibles ",
+      "statut": "passe",
+      "affiche": "spectacles/20260214/affiche.jpg",
+      "photos": [
+        "spectacles/20260214/affiche.jpg"
+      ],
+      "lienPlusInfo": "https://fb.me/e/4c0TBcUt5"
+    }
+  ]
+}

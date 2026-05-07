@@ -1,0 +1,82 @@
+
+    {
+      "id": "spectacle-impro-20260328",
+      "type": "spectacle",
+      "titre": "Spectacle d'Improvisation - Printemps 2026",
+      "date": "2026-03-28",
+      "heure": "20h",
+      "lieu": "Divanoo 25A route de Bischwiller à Bischheim",
+      "description": "Pour le prochain spectacle d'improvisation de la team adultes de Simone, on te réserve des impros plus vraies que nature et une qualité 4K que tu ne trouveras nulle part ailleurs ! 🎬",
+      "prix": "Entrée libre dans la limite des places disponibles ",
+      "statut": "a-venir",
+      "affiche": "spectacles/20260328/affiche.jpg",
+      "photos": [
+        "spectacles/20260328/affiche.jpg"
+      ],
+      "lienPlusInfo": https://fb.me/e/5w4z7h3s6" 
+      "lienReservation": "https://fb.me/e/5w4z7h3s6" 
+    },
+    {
+      "id": "atelier-decouverte",
+      "type": "atelier",
+      "titre": "Atelier Découverte de l'Impro",
+      "date": "2026-05-10",
+      "heure": "18h00",
+      "lieu": "Local de l'Association",
+      "description": "Venez découvrir l'improvisation théâtrale dans un cadre bienveillant. Atelier gratuit ouvert à tous, débutants bienvenus !",
+      "prix": "Gratuit",
+      "statut": "a-venir",
+      "affiche": null,
+      "photos": []
+    },
+    {
+      "id": "spectacle-mars-2026",
+      "type": "spectacle",
+      "titre": "Spectacle Improvisé - Mars 2026",
+      "date": "2026-03-01",
+      "heure": "19h00",
+      "lieu": "Théâtre Municipal",
+      "description": "Une soirée mémorable avec des histoires uniques créées en direct à partir de vos suggestions.",
+      "prix": "10€",
+      "statut": "passe",
+      "affiche": "assets/images/IMG_20241124-WA0177.jpg",
+      "photos": [
+        "assets/images/IMG_20241124-WA0177.jpg",
+        "assets/images/IMG_20230524_120431_947.jpg"
+      ]
+    }
+
+
+{
+  "spectacles": [
+    {
+      "id": "match-impro-avril-2026",
+      "type": "match",
+      "titre": "Match d'Improvisation - Printemps 2026",
+      "date": "2026-04-15",
+      "heure": "20h30",
+      "lieu": "Salle des Fêtes, Ville",
+      "description": "Grande soirée de match d'improvisation !",
+      "prix": "8€",
+      "statut": "a-venir",
+      "affiche": "spectacles/match-impro-avril-2026/affiche.jpg",
+      "photos": [],
+      "lienReservation": "https://billetterie.example.com/match-avril",
+      "lienPlusInfo": "https://facebook.com/event/123456"
+    },
+    {
+      "id": "atelier-decouverte",
+      "type": "atelier",
+      "titre": "Atelier Découverte de l'Impro",
+      "date": "2026-05-10",
+      "heure": "18h00",
+      "lieu": "Local de l'Association",
+      "description": "Venez découvrir l'improvisation théâtrale",
+      "prix": "Gratuit",
+      "statut": "a-venir",
+      "affiche": null,
+      "photos": [],
+      "lienPlusInfo": "https://example.com/ateliers"
+    }
+  ]
+}

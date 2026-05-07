@@ -1,0 +1,402 @@
+/* ========================================
+   SPECTACLES DYNAMIQUES
+   ======================================== */
+
+/* Grille des spectacles */
+.spectacles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Carte de spectacle */
+.spectacle-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.spectacle-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Badge de statut */
+.spectacle-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+}
+
+.spectacle-badge.a-venir {
+    background: rgba(46, 204, 113, 0.9);
+    color: white;
+}
+
+.spectacle-badge.passe {
+    background: rgba(149, 165, 166, 0.9);
+    color: white;
+}
+
+.spectacle-badge.complet {
+    background: rgba(231, 76, 60, 0.9);
+    color: white;
+}
+
+/* Image/Affiche du spectacle */
+.spectacle-image-container {
+    position: relative;
+    height: 250px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    overflow: hidden;
+}
+
+.spectacle-image-container.no-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.spectacle-image-container.no-image .spectacle-type-icon {
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.spectacle-affiche {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.spectacle-card:hover .spectacle-affiche {
+    transform: scale(1.05);
+}
+
+.spectacle-image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.spectacle-card:hover .spectacle-image-overlay {
+    opacity: 1;
+}
+
+.zoom-hint {
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Informations du spectacle */
+.spectacle-info {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.spectacle-type {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: #ecf0f1;
+    color: #34495e;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+
+.spectacle-type.match {
+    background-color: #e8f4f8;
+    color: #3498db;
+}
+
+.spectacle-type.atelier {
+    background-color: #fef5e7;
+    color: #f39c12;
+}
+
+.spectacle-type.spectacle {
+    background-color: #f4ecf7;
+    color: #9b59b6;
+}
+
+.spectacle-info h3 {
+    margin: 0 0 1rem 0;
+    color: #2c3e50;
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+
+.spectacle-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.spectacle-detail-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.spectacle-detail-item .icon {
+    color: #3498db;
+    font-weight: bold;
+    min-width: 20px;
+}
+
+.spectacle-description {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    flex: 1;
+}
+
+.spectacle-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid #ecf0f1;
+    margin-top: auto;
+}
+
+.spectacle-prix {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #27ae60;
+}
+
+.spectacle-btn {
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.spectacle-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.spectacle-btn.disabled {
+    background: #95a5a6;
+    cursor: not-allowed;
+}
+
+.spectacle-btn.disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+/* Message de chargement */
+.loading-message,
+.no-spectacles-message {
+    text-align: center;
+    padding: 3rem;
+    color: #7f8c8d;
+    font-style: italic;
+    grid-column: 1 / -1;
+}
+
+/* Filtres (optionnel pour une future évolution) */
+.spectacles-filters {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.5rem 1.5rem;
+    background: white;
+    border: 2px solid #ecf0f1;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: #3498db;
+    color: white;
+    border-color: #3498db;
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
+@media (max-width: 768px) {
+    .spectacles-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .spectacle-info {
+        padding: 1.25rem;
+    }
+    
+    .spectacle-info h3 {
+        font-size: 1.15rem;
+    }
+    
+    .spectacle-badge {
+        top: 10px;
+        right: 10px;
+        font-size: 0.75rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .spectacle-footer {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+    }
+    
+    .spectacle-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Pour la page spectacle */
+/* Bouton vers page spectacles */
+.spectacles-link {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* Hero section spectacles */
+.hero-spectacles {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 8rem 0 6rem;
+    text-align: center;
+}
+
+/* Section archivés */
+.spectacles-archives {
+    background-color: #f8f9fa;
+}
+
+.section-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* Meta informations spectacles */
+.spectacle-meta {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.spectacle-status {
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.spectacle-status.active {
+    background-color: #10b981;
+    color: white;
+}
+
+.spectacle-status.archived {
+    background-color: #6b7280;
+    color: white;
+}
+
+.spectacle-date {
+    padding: 0.3rem 0.8rem;
+    background-color: #e5e7eb;
+    color: #374151;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* CTA Section */
+.cta-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.cta-section h2 {
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ========================================
+   HERO SECTION
+   ======================================== */
+
+.hero-spectacle {
+    margin-top: 70px;
+    min-height: 0vh; /* Réduit de 80vh à 50vh */
+    background: linear-gradient(135deg, rgba(255, 180, 168, 0.7), rgba(137, 212, 240, 0.7));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 3rem 1.5rem; /* Réduit de 4rem 2rem */
+}

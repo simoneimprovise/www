@@ -1,0 +1,41 @@
+{
+  "albums": [
+    {
+      "id": "Les coulisses de Simone",
+      "titre": "Les coulisses de Simone",
+      "description": "Entrainements et préparation des spectacles",
+      "date": "2026-03-15",
+      "thumbnail": "photos/nos-entrainements/thumbnail.jpg",
+      "dossier": "photos/nos-entrainements/",
+      "photos" : [
+        "photos/nos-entrainements/photo01.jpg",
+        "photos/nos-entrainements/photo02.jpg",
+        "photos/nos-entrainements/photo03.jpg",
+        "photos/nos-entrainements/photo04.jpg",
+        "photos/nos-entrainements/photo05.jpg",
+        "photos/nos-entrainements/photo06.jpg",
+        "photos/nos-entrainements/photo07.jpg",
+        "photos/nos-entrainements/photo08.jpg"
+      ]
+    },
+    {
+      "id": "spectacles-en-vrac",
+      "titre": "Photos de spectacles Simone!",
+      "description": "Retour sur quelques spectacles Simone mémorables!",
+      "date": "2025-03-15",
+      "thumbnail": "photos/spectacles-en-vrac/thumbnail.jpg",
+      "dossier": "photos/spectacles-en-vrac/",
+      "photos" : [
+        "photos/spectacles-en-vrac/photo01.jpg",
+        "photos/spectacles-en-vrac/photo02.jpg",
+        "photos/spectacles-en-vrac/photo03.jpg",
+        "photos/spectacles-en-vrac/photo04.jpg",
+        "photos/spectacles-en-vrac/photo05.jpg",
+        "photos/spectacles-en-vrac/photo06.jpg",
+        "photos/spectacles-en-vrac/photo07.jpg",
+        "photos/spectacles-en-vrac/photo08.jpg",
+        "photos/spectacles-en-vrac/photo09.jpg"
+      ]
+    }
+  ]
+}
