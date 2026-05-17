@@ -1,9 +1,9 @@
 // Configuration EmailJS
 // REMPLACEZ CES VALEURS PAR VOS IDENTIFIANTS EMAILJS
 const EMAIL_CONFIG = {
-    publicKey: 'qWlAuiSZx-YkfxX1S',      // Ex: 'user_abc123xyz'
-    serviceID: 'service_3bb8j2k',      // Ex: 'service_abc123'
-    templateID: 'template_5spvsmt'     // Ex: 'template_xyz789'
+    publicKey: 'yNZ3b_GC4-HCTkZrx',      // Ex: 'user_abc123xyz'
+    serviceID: 'service_mxyr16n',      // Ex: 'service_abc123'
+    templateID: 'template_p3tt9i5'     // Ex: 'template_xyz789'
 };
 
 // Initialisation d'EmailJS au chargement de la page
