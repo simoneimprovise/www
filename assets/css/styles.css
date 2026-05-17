@@ -972,7 +972,6 @@ footer {
   padding-bottom: 0.5rem;
 }
 
-
 .annonce-bandeau {
     background: var(--pale-blue);
     color: var(--text-color);
@@ -997,11 +996,13 @@ footer {
 .annonce-titre {
     margin: 0 0 8px 0;
     font-size: 1.1em;
+    margin-top: 0; 
 }
 
 .annonce-details {
     margin: 0;
     font-size: 0.95em;
+    margin-top: 0; 
 }
 
 .badge-nouveau {
@@ -1012,12 +1013,14 @@ footer {
 }
 
 .btn-contact-rapide {
+    text-align: center;
     background: white;
     color: var(--bleu);
     padding: 8px 20px;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 0px; 
     transition: transform 0.2s;
 }
 
