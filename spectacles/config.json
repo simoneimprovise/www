@@ -1,5 +1,37 @@
 {
   "spectacles": [
+      {
+      "id": "spectacle-impro-20260613",
+      "type": "spectacle",
+      "titre": "Spectacle d'impro : Simone sur le fil",
+      "date": "2026-06-13",
+      "heure": "20h",
+      "lieu": "Café Totem 41 rue principale à Schiltigheim",
+      "description": "Pour clôturer cette saison, Simone te propose une dernière petite surprise avec son spectacle improvisé Sur Le Fil.\nViens donc prendre une dernière dose de bonne humeur à Totem Café\n avant que Simone ne parte en vacances pour mieux revenir à la rentrée\n avec de nouvelles idées encore plus folles !",
+      "prix": "Réservation directement auprès de Totem Café",
+      "statut": "passe",
+      "affiche": "spectacles/20260613/affiche.jpg",
+      "photos": [
+        "spectacles/20260613/affiche.jpg"
+      ],
+      "lienPlusInfo": "https://www.facebook.com/events/4531117310440800"
+    },
+    {
+      "id": "spectacle-impro-20260606",
+      "type": "spectacle",
+      "titre": "Spectacle d'impro : Simone ne manque pas d'altitude",
+      "date": "2026-06-06",
+      "heure": "19h",
+      "lieu": "Cour Elmia, Bâtiment A, 31 rue principale à Schiltigheim",
+      "description": "C'est les petites nouvelles-aux mais iels ont déjà fait leurs preuves, et iels en redemandent !\n Alors public, prépare toi car Simone va t'envoyer dans les airs avec le nouveau spectacle de son groupe junior ! 🎈",
+      "prix": "Entrée libre dans la limite des places disponibles",
+      "statut": "passe",
+      "affiche": "spectacles/20260606/affiche.jpg",
+      "photos": [
+        "spectacles/20260606/affiche.jpg"
+      ],
+      "lienPlusInfo": ""
+    },
     {
       "id": "spectacle-impro-20260530",
       "type": "spectacle",
